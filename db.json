@@ -1,3 +1,14 @@
+{
+"posts": [
+  {
+    "id": 1,
+    "title": "hello"
+  }
+],
+"profile": {
+  "name": "typicode"
+},
+"products":
 [
   {
     "id": "wkr-2334-4442-dj321",
@@ -21,3 +32,4 @@
     "image": "https://res.cloudinary.com/daintu6ky/image/upload/v1572098175/Screenshot_2019-10-26_at_2.54.38_PM.png"
   }
 ]
+}
