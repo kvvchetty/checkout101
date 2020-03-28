@@ -1,6 +1,7 @@
 
 const Footer = () => {
     const mystyle = {
+        "height": "100px",
         "position": "absolute",
         "bottom": "0",
         "width": "100%",
@@ -13,7 +14,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-6 mt-md-0 mt-3">
                 <h5 className="text-uppercase font-weight-bold">Contact Us</h5>
-                <p>You can contact us on subashi.k@outlook.com</p>
+                <p>email:subashi.k@outlook.com</p>
               </div>
               <div className="col-md-6 mb-md-0 mb-3">
                 <h5 className="text-uppercase font-weight-bold">Return Policy</h5>
@@ -22,7 +23,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-copyright text-center py-3">© 2020 Copyright:
-            <span> SithaRama </span>
+            <span> SithaRamaRetailerChennai </span>
           </div>
         </footer>
     );
