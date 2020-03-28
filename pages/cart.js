@@ -34,7 +34,7 @@ const Cart = () => {
                           </div>
                         </div>
                       </th>
-                      <td className="border-0 align-middle"><strong>xx {item.price}</strong></td>
+                      <td className="border-0 align-middle"><strong>INR {item.price}</strong></td>
                     </tr>
                     )}
                   </tbody>
@@ -42,7 +42,7 @@ const Cart = () => {
               </div>
              <ul className="list-unstyled mb-4">
                 <li className="d-flex justify-content-between py-3 border-bottom"><strong className="text-muted">Total</strong>
-                  <h5 className="font-weight-bold">xx {carttotal}</h5>
+                  <h5 className="font-weight-bold">INR {carttotal}</h5>
                 </li>
               </ul>
               <a href="#" className="btn btn-dark rounded-pill py-2 btn-block">Procceed to checkout</a>

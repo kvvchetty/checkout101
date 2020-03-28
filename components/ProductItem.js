@@ -16,7 +16,7 @@ const ProductItem = (props) => {
           <div className="col-sm-4 ">
               <div className="card-body" style={{marginTop: "135px"}}>
                 <h5 className="card-title">{props.product.name}</h5>
-                <h6 className="card-title">import {  } from "module"; {props.product.price}</h6>
+                <h6 className="card-title">INR {props.product.price}</h6>
                 <p>{props.product.description}</p>
                 <button className="btn btn-large btn-primary" onClick={() => {addToCart(props.product); total(props.product.price); }}>Add to Cart
                 </button>
